@@ -107,5 +107,4 @@ This project uncovered key demographic and financial trends that can guide MFS i
 
 ---
 
-## Repository Structure
 
