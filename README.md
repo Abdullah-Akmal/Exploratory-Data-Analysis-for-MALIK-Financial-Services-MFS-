@@ -14,10 +14,10 @@ The primary goal is to derive actionable insights that optimize MFS’s loan app
 
 ## Tools & Technologies
 
-- **Python Libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `pdfplumber`
+- **Python Libraries**: pandas, numpy, matplotlib, seaborn, pdfplumber
 - **Data Sources**: 
-  - `MALIK_Loans_Database_Table.pdf`
-  - `MALIK Loan Data.xlsx`
+  - MALIK_Loans_Database_Table.pdf
+  - MALIK Loan Data.xlsx
 - **Environment**: Jupyter Notebook
 
 ---
@@ -26,14 +26,14 @@ The primary goal is to derive actionable insights that optimize MFS’s loan app
 
 ### 1. Data Extraction & Integration
 
-- Extracted tabular data from PDFs using `pdfplumber`.
-- Loaded Excel data using `pandas`.
+- Extracted tabular data from PDFs using pdfplumber.
+- Loaded Excel data using pandas.
 - Merged both datasets into a unified DataFrame for consolidated analysis.
 
 ### 2. Data Cleaning & Transformation
 
 - Verified no missing or duplicate values.
-- Converted relevant fields (e.g., `LoanAmount`, `ApplicantIncome`) to numeric types.
+- Converted relevant fields (e.g., LoanAmount, ApplicantIncome) to numeric types.
 - Mapped categorical codes to human-readable labels for interpretability.
 
 ### 3. Exploratory Data Analysis (EDA)
@@ -62,7 +62,7 @@ The primary goal is to derive actionable insights that optimize MFS’s loan app
 
 ### 4. Visualization & Reporting
 
-- Created the following plots using `matplotlib` and `seaborn`:
+- Created the following plots using matplotlib and seaborn:
   - Loan approval rates by gender.
   - Income distribution histograms.
   - Loan amount box plots.
